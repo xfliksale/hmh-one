@@ -22,7 +22,6 @@ jobs:
           node-version: '14.x'
 
       - name: npm install, build, and test
-       uses: comchangs/action-yarn@v0.1-beta
         run: |
           yarn
           yarn landing-build
